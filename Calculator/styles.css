@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin: 0, 0, 0, 0;
+    padding: 0;
+    transition: all 0.5s;
+}
+
+.dark-mode {
+    background-color: #0f121f;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;
+    border: none;
+    background-color: #d8bcbc;
+    color: rgb(3, 26, 36);
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #bbce66;
+    border-radius: 15px;
+}
+
+.top-btn {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;
+    border: none;
+    background-color: #f88a40;
+}
+
+.top-btn:hover {
+    background-color: #575353;
+}
+
+.right-btn {
+
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 0 4px;
+    border: none;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #06eee2;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.right-btn:hover {
+    background-color: #c22662;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+h1 {
+    color: rgb(230, 247, 247);
+    font-weight: bolder;
+}
+
+.container {
+
+    background-color: rgb(26, 6, 39);
+    padding: 15px;
+    display: inline-block;
+    position: absolute;
+    border: solid rgb(0, 0, 0);
+    border-radius: 60px;
+    margin: 50px 450px;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 316px;
+    font-size: 200%;
+    margin: 0;
+    padding: 10px 10px;
+    border: 6px;
+    text-align: right;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .container {
+        margin: 50px 1px;
+
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .container {
+        margin: 50px 20px;
+
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        margin: 75px 125px;
+
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .container {
+        margin: 50px 80px;
+
+    }
+}
+
+/* ---DARK MODE CSS--- */
+#dark {
+
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px 10px;
+    border: none;
+
+    background-color: #444343;
+    background-image: url("/dark.png");
+
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-display: none;
+}
+
+#dark:hover {
+    background-color: #dddbdb;
+    border-radius: 10px;
+}
